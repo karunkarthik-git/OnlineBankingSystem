@@ -1,0 +1,236 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5176bd;
+}
+
+ul {
+    font-size: 1.3rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active:hover {
+    background-color: #4CAF50;
+  }
+
+  .activeblue:hover {
+    background-color: #4894f8 !important;
+  }
+
+  .activered:hover {
+    background-color: red !important;
+  }
+
+  .row{
+      width: 90%;
+      height: 40vh; 
+      margin: 0 auto;
+      margin-top: 20px;
+      display: flex;
+  }
+  .banner{
+    flex: 2;
+    height: 100%;
+    width: 45%;
+    padding: 15px;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  .accsum{
+    flex: 1;
+    height: 100%;
+    width: 25%;
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+
+  .acbtn{
+      width: 100%;
+      border: none;
+      background-color: rgb(114, 85, 243);
+      color: white !important;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      line-height: 35px;
+  }
+
+  .accbody{
+    background-color:antiquewhite;
+    width: 110vh;
+    height: 85vh;
+    margin: 19px auto;
+    border-radius: 10px;
+  }
+
+  .accbody .header{
+    width: 100%;
+    height: 40px;
+    top: 0;
+    background-color: grey;
+  }
+
+  .accbody .accbd{
+    margin: 40px auto;
+    width: 80%;
+    height: 65%;
+    background-color: white;
+  }
+
+  .accbody .accbd .dark{
+    width: 100%;
+    height: 50px;
+    background-color:black !important;
+    color: white;
+  }
+  .accbody .accbd .darklight p {
+    font-size: 1.2rem;
+    padding: 11px;
+  }
+  .accbody .accbd .dark p{
+    font-size: 1.2rem;
+    padding: 11px;
+  }
+
+  .transacinput{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(157, 250, 157);
+    margin-bottom: 10px;
+    outline:none;
+  }
+
+  .inputtext{
+    width: 60%;
+    height: 30px;
+    margin-top: 15px !important;
+    margin: 0 auto;
+    margin-left: 14%;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .inputsend{
+    margin-left: 20px;
+    width: 10%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .accbody .transacaccbd{
+    margin: 30px auto;
+    width: 80%;
+    height: 65%;
+    background-color: white;
+  }
+
+  .accbody .transacaccbd .dark{
+    width: 100%;
+    height: 50px;
+    background-color:black !important;
+    color: white;
+  }
+
+  .accbody .transacaccbd .darklight p {
+    font-size: 1.2rem;
+    padding: 11px;
+  }
+  .accbody .transacaccbd .dark p{
+    font-size: 1.2rem;
+    padding: 11px;
+  }
+
+  .signupDiv{
+    width: 700px;
+    height: 90vh;
+    margin: 55px auto;
+    background-color: #324c7c;
+    border-radius: 20px;
+  }
+
+  .signupDiv .head{
+    padding: 20px;
+    color: white;
+  }
+
+  .signupDiv .formbody{
+    margin: 15px;
+    display: flex;
+  }
+  .signupleft{
+    margin-left: 5px;
+    width: 70%;
+    height: 415px; 
+    flex: 2;
+    background-color: rgb(224, 217, 202);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .signupright{
+    margin-left: 5px;
+    width: 30%;
+    height: 415px; 
+    flex: 1;
+    background-color: rgb(182, 13, 13);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .formleft{
+    margin-left: 15px;
+  }
+
+  .forminputtext{
+    width: 80%;
+    height: 30px;
+    margin-top: 15px !important;
+    padding: 10px;
+    margin: 0 auto;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .forminputcheck{
+    margin-top: 15px !important;
+    padding: 10px;
+    margin-left: 5%;
+  }
+
+  .formdisplaytext{
+    font-size: 0.9rem;
+    background-color: rgb(224, 217, 202);
+    padding: 10px;
+    margin-left: 5%;
+  }
+
+  
